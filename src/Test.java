@@ -23,5 +23,7 @@ class Test<T> {
         Test<String> sObj = new Test<String>("GeeksForGeeks");
         System.out.println(sObj.getObject());
     }
+
+    // https://www.baeldung.com/java-type-erasure
 }
 
